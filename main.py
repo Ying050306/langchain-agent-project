@@ -34,7 +34,7 @@ def read_pdf_text(file_name: str) -> str:
 
 
 model = init_chat_model(
-    "gemini-2.0-flash-lite",
+    "gemini-2.5-flash-lite",
     model_provider="google-genai",
     temperature=0.1,
 )
